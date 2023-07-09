@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Banele Ndlovu</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Banele Ndlovu</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section_pic-container">
+                <img src="/assets/Profile picture 3.jpg " alt="Banele Ndlovu profile picture">
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1"> Hello, I'm</p>
+                <h1 class="title">Banele Ndlovu</h1>
+                <p class="section_text_p2">M.S Business Analytics Student</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/Banele Resume.pdf')">
+                        Resume
+                      </button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="/assets/linkedin.png" alt="My linkedin Profile"
+                    class="icon" onclick="location.href='https://linkedin.com/in/banele-ndlovu/'">
+                </div>
+                <img src="/assets/github.png" alt="My Github Profile"
+                class="icon" onclick="location.href='https://github.com/banelendlovu/'">
+            </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section_text_p1"> Get To Know More</p>
+            <h1 class="title"> About Me</h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img src="/assets/about me pic.jpg" alt="Profile Picture" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>Strategic Finace <br>Product Management</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="Education icon" class="icon">
+                            <h3>Education</h3>
+                            <p>B.A. Business Management '23<br>M.sc. Business Analytics '24</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Hi, my name is Banele and I'm an international student from Zimbabwe. 
+                            I hold a Bachelor's in Business Administration/Management from Waldorf University and currently working towards my Master's degree in Business Analytics
+                            at William & Mary College.</p><br><p>My passion lies in bridging the gap that exists between business and technology using data, in every community I've 
+                    been given the opportunity to work and live in. From a young age, I've always been interested in the business and commercial sector,
+                however, my curiosity in data and technology has driven my desire into solving problems with data-centric solutions.</p><br>
+                <p> Aside my career related experience, I'm a huge music and soccer fan. I've had a successful soccer career from age 9 till my graduation at Waldorf University. I'm very excited to 
+            add value with analysis and building products that will create a positive impact to people and their businesses!</p>
+                </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#experience'">
+        </section>
+        <section id="experience">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Internships</h2>
+                        <div class="article-container">
+                            <article>
+                                <div>
+                                    <h3>Uber Technologies</h3>
+                                    <h5>Role: Strategic Finance Intern</h5>
+                                    <br><p>Worked with Product Delivery team, focused on building an interactive financial model for quality visualization of metrics on Global Strategic Brands</p>
+                                </div>
+                            </article>
+                            <article>
+                                <div>
+                                    <h3>Microsoft Corporation</h3>
+                                    <h5>Role: Program Manager Intern</h5>
+                                    <br><p>Internship with Product Management team focussed on customizing and personalizing Microsoft Teams Channels</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                      <div class="details-container">
+                        <h2 class="experience-sub-title">Developement Programs</h2>
+                        <div class="article-container">
+                            <article>
+                                <div>
+                                    <h3>Quicken Loans</h3>
+                                    <h5>Sales & Technology Extern</h5>
+                                    <p>Selected amongst 80 students as an extern actively involved in learning and exploring roles of Product Managers, engineers, designers, sales and marketing teams in the company.</p>
+                                </div>
+                            </article>
+                            <article>
+                                <div>
+                                    <h3>Uber Technologies</h3>
+                                    <h5>APM Sophonore Summit Participant</h5>
+                                    <p>I was selected amongst 40 students out of 500+ applicants. The event focused on introducing Product Management to future product leaders who later participated in engineering, UI/UX and market research panel sessions.</p>
+                                </div>
+                            </article>
+                            <article>
+                                <div>
+                                    <h3>CodePath Organization</h3>
+                                    <h5>Software Engineering Fellow </h5>
+                                    <p>Enrolled in CodePath's Introduction to Software Engineering summer class. This interview prep course assisted students with understanding and tackling technical questions in interviews</p>
+                                </div>
+                            </article>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#projects'">
+        </section>
+        <section id="projects">
+            <p class="section_text_p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/Tic-Tac-Toe img.png" alt="Project 1" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Tic-Tac-Toe</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/banelendlovu'">Github</button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://banelendlovu.github.io/'">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/QueApp Image.png" alt="Project 2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">QueApp</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/banelendlovu'">Github</button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.figma.com/file/KwUKQtucS6D9z3Ci71hUJ7/QueMeals-App-Project?type=design&node-id=0%3A1&mode=design&t=EBUQ0RRKMgt4REB6-1'">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/COVIDconnect img.jpg" alt="Project 3" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">COVIDconnect</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/banelendlovu'">Github</button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/1ssASWd2uuWafZ3NIFv8qZAVlJqkCoV0712PIQRDykD4/edit#slide=id.g912079a634_0_10'">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#contact'">
+        </section>
+        <section id="contact">
+            <p class="section_text_p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="Email icon" class="icon contact-icon">
+                    <p><a href="mailto:banelendlovu732@gmail.com">banelendlovu732@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/banele-ndlovu/">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2023 Banele Ndlovu. All Rights Reserved. </p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
