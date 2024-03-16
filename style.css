@@ -328,13 +328,13 @@ section {
 }
 
 .experience-details-container {
-    display: flex;
+    display: grid;
     justify-content: center;
     flex-direction: column;
 }
 
 .article-container {
-    display: flex;
+    display: grid;
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
