@@ -267,11 +267,16 @@ section {
     position: relative;
 }
 
+
+
 .about-containers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 0rem;
+    justify-items: center;
+    margin-top: 2rem;
 }
+
 
 .about-details-container {
     justify-content: center;
@@ -379,6 +384,15 @@ article .icon {
     color: black;
     border-color: rgb(163, 163, 163);
 }
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    margin-top: 2rem;
+}
+
 
 /* CONTACT SECTION */
 
